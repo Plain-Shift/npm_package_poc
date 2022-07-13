@@ -1,0 +1,10 @@
+{
+  "name": "@openzeppelin/contracts",
+  "description": "Secure Smart Contract library for Solidity",
+  "version": "4.7.0",
+  "files": [
+    "**/*.sol",
+  ],
+
+  "license": "MIT",
+}
