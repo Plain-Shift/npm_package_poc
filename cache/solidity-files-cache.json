@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jason/hacking/solidity/research/npm_package_poc/contracts/proxy/Initializable.sol": {
+      "lastModificationDate": 1658340932879,
+      "contentHash": "45d89300a4cf0500e5f226c3caf3ebad",
+      "sourceName": "contracts/proxy/Initializable.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/jason/hacking/solidity/research/npm_package_poc/contracts/utils/Address.sol": {
+      "lastModificationDate": 1658340886251,
+      "contentHash": "b07425decfa431140e07998e36c54da1",
+      "sourceName": "contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    }
+  }
+}

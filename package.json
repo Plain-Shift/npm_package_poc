@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Plain-Shift/npm_package_poc/issues"
   },
-  "homepage": "https://github.com/Plain-Shift/npm_package_poc#readme"
+  "homepage": "https://github.com/Plain-Shift/npm_package_poc#readme",
+  "dependencies": {
+    "hardhat": "^2.10.1"
+  }
 }

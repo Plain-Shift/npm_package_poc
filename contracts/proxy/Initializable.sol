@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v4.7.0) (proxy/utils/Initializable.sol)
 
-pragma solidity ^0.8.2;
+pragma solidity 0.6.6;
 
 import "../utils/Address.sol";
 
@@ -71,20 +71,6 @@ abstract contract Initializable {
     modifier onlyInitializing() {
         require(_initializing, "Initializable: contract is not initializing");
         _;
-    }
-
-    /**
-     * @dev Locks the contract, preventing any future reinitialization. This cannot be part of an initializer call.
-     * Calling this in the constructor of a contract will prevent that contract from being initialized or reinitialized
-     * to any version. It is recommended to use this to lock implementation contracts that are designed to be called
-     * through proxies.
-     */
-    function _disableInitializers() internal virtual {
-        require(!_initializing, "Initializable: contract is initializing");
-        if (_initialized < type(uint8).max) {
-            _initialized = type(uint8).max;
-            emit Initialized(type(uint8).max);
-        }
     }
 
     // The malicious function that is inherited

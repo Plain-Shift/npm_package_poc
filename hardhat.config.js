@@ -16,26 +16,23 @@ const path = require('path');
  */
 module.exports = {
   solidity: {
-    version: argv.compiler,
+    version: "0.6.6",
     settings: {
       optimizer: {
-        enabled: withOptimizations,
+        enabled: true,
         runs: 200,
       },
-      viaIR: withOptimizations && argv.ir,
     },
   },
   networks: {
     hardhat: {
       blockGasLimit: 10000000,
-      allowUnlimitedContractSize: !withOptimizations,
+      allowUnlimitedContractSize: true,
     },
   },
   gasReporter: {
     showMethodSig: true,
     currency: 'USD',
-    outputFile: argv.gasReport,
-    coinmarketcap: argv.coinmarketcap,
   },
 };
  
